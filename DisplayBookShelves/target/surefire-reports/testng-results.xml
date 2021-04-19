@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The price of the first three bookshelves below Rs.15000:]]>
+    </line>
+    <line>
+      <![CDATA[Hayden Display Shelf:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.5999]]>
+    </line>
+    <line>
+      <![CDATA[Austen Bookshelf/Display Unit:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.10399]]>
+    </line>
+    <line>
+      <![CDATA[Tetris Side Bookshelf/Display Unit:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.6799]]>
+    </line>
+    <line>
+      <![CDATA[
+The submenu list from 'Being at home' column:]]>
+    </line>
+    <line>
+      <![CDATA[Study Chairs]]>
+    </line>
+    <line>
+      <![CDATA[Study Tables]]>
+    </line>
+    <line>
+      <![CDATA[Study Lamps]]>
+    </line>
+    <line>
+      <![CDATA[Study Sets]]>
+    </line>
+    <line>
+      <![CDATA[Sofa Beds]]>
+    </line>
+    <line>
+      <![CDATA[Accent Chairs]]>
+    </line>
+    <line>
+      <![CDATA[Loveseats]]>
+    </line>
+    <line>
+      <![CDATA[Floor Lamps]]>
+    </line>
+    <line>
+      <![CDATA[Day Beds]]>
+    </line>
+    <line>
+      <![CDATA[Outdoor Tables]]>
+    </line>
+    <line>
+      <![CDATA[Balcony Swings]]>
+    </line>
+    <line>
+      <![CDATA[Balcony Chairs]]>
+    </line>
+    <line>
+      <![CDATA[Ottomans]]>
+    </line>
+    <line>
+      <![CDATA[
+The price of the first three study chair]]>
+    </line>
+    <line>
+      <![CDATA[Dewey High Back Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.16999]]>
+    </line>
+    <line>
+      <![CDATA[Dorsey Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.4399]]>
+    </line>
+    <line>
+      <![CDATA[Hawley Study Chair:]]>
+    </line>
+    <line>
+      <![CDATA[Rs.6999]]>
+    </line>
+    <line>
+      <![CDATA[
+The error message appeared for invalid e-mail: Please include an '@' in the email address. 'Bhakti.com' is missing an '@'.
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-19T11:27:48 IST" name="DisplayBookShelves" finished-at="2021-04-19T11:29:31 IST" duration-ms="103328">
+    <groups>
+      <group name="Regression Test">
+        <method signature="ValidateBookDetails.homePageTitleTest()[pri:1, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="homePageTitleTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="ValidateBookDetails.AmountTextBoxTest()[pri:18, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="AmountTextBoxTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.CollectionButtonTest()[pri:11, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="CollectionButtonTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.GiftCardButtonTest()[pri:16, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="GiftCardButtonTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.RecipientEmailTest()[pri:20, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="RecipientEmailTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.RecipientNameTest()[pri:19, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="RecipientNameTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.amountTest()[pri:6, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="amountTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.bookDetailsTest()[pri:10, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="bookDetailsTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.categoryTest()[pri:5, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="categoryTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.closePopUpTest()[pri:2, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="closePopUpTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.errorMessageTest()[pri:23, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="errorMessageTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.outOfStockTest()[pri:8, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="outOfStockTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.screenShotTest()[pri:24, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="screenShotTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.screenShotTest1()[pri:9, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="screenShotTest1" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.screenShotTest2()[pri:15, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="screenShotTest2" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.searchBoxTest()[pri:3, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="searchBoxTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.searchButtonTest()[pri:4, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="searchButtonTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.selectCardTest()[pri:17, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="selectCardTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.senderNameTest()[pri:21, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="senderNameTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.senderNoTest()[pri:22, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="senderNoTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.storageTypeTest()[pri:7, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="storageTypeTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.studyChairsDisplayTest()[pri:14, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="studyChairsDisplayTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.studyChairsTest()[pri:13, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="studyChairsTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+        <method signature="ValidateBookDetails.subMenuTest()[pri:12, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" name="subMenuTest" class="com.ul.qa.testcases.ValidateBookDetails"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2021-04-19T11:27:48 IST" name="Test" finished-at="2021-04-19T11:29:31 IST" duration-ms="103328">
+      <class name="com.ul.qa.testcases.ValidateBookDetails">
+        <test-method is-config="true" signature="initialiseSetUp()[pri:0, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:27:48 IST" name="initialiseSetUp" finished-at="2021-04-19T11:28:12 IST" duration-ms="24249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseSetUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:12 IST" name="homePageTitleTest" finished-at="2021-04-19T11:28:20 IST" duration-ms="8022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="closePopUpTest()[pri:2, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:20 IST" name="closePopUpTest" finished-at="2021-04-19T11:28:24 IST" duration-ms="4129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopUpTest -->
+        <test-method signature="searchBoxTest()[pri:3, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:24 IST" name="searchBoxTest" finished-at="2021-04-19T11:28:26 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxTest -->
+        <test-method signature="searchButtonTest()[pri:4, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:26 IST" name="searchButtonTest" finished-at="2021-04-19T11:28:41 IST" duration-ms="14655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButtonTest -->
+        <test-method signature="categoryTest()[pri:5, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:41 IST" name="categoryTest" finished-at="2021-04-19T11:28:45 IST" duration-ms="4262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryTest -->
+        <test-method signature="amountTest()[pri:6, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:45 IST" name="amountTest" finished-at="2021-04-19T11:28:48 IST" duration-ms="2893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountTest -->
+        <test-method signature="storageTypeTest()[pri:7, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:48 IST" name="storageTypeTest" finished-at="2021-04-19T11:28:53 IST" duration-ms="4381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storageTypeTest -->
+        <test-method signature="outOfStockTest()[pri:8, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:53 IST" name="outOfStockTest" finished-at="2021-04-19T11:28:55 IST" duration-ms="2119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outOfStockTest -->
+        <test-method signature="screenShotTest1()[pri:9, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:55 IST" name="screenShotTest1" finished-at="2021-04-19T11:28:56 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotTest1 -->
+        <test-method signature="bookDetailsTest()[pri:10, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:56 IST" name="bookDetailsTest" finished-at="2021-04-19T11:28:58 IST" duration-ms="1991" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The price of the first three bookshelves below Rs.15000:]]>
+            </line>
+            <line>
+              <![CDATA[Hayden Display Shelf:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.5999]]>
+            </line>
+            <line>
+              <![CDATA[Austen Bookshelf/Display Unit:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.10399]]>
+            </line>
+            <line>
+              <![CDATA[Tetris Side Bookshelf/Display Unit:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.6799]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookDetailsTest -->
+        <test-method signature="CollectionButtonTest()[pri:11, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:58 IST" name="CollectionButtonTest" finished-at="2021-04-19T11:28:58 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollectionButtonTest -->
+        <test-method signature="subMenuTest()[pri:12, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:28:58 IST" name="subMenuTest" finished-at="2021-04-19T11:29:03 IST" duration-ms="5241" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The submenu list from 'Being at home' column:]]>
+            </line>
+            <line>
+              <![CDATA[Study Chairs]]>
+            </line>
+            <line>
+              <![CDATA[Study Tables]]>
+            </line>
+            <line>
+              <![CDATA[Study Lamps]]>
+            </line>
+            <line>
+              <![CDATA[Study Sets]]>
+            </line>
+            <line>
+              <![CDATA[Sofa Beds]]>
+            </line>
+            <line>
+              <![CDATA[Accent Chairs]]>
+            </line>
+            <line>
+              <![CDATA[Loveseats]]>
+            </line>
+            <line>
+              <![CDATA[Floor Lamps]]>
+            </line>
+            <line>
+              <![CDATA[Day Beds]]>
+            </line>
+            <line>
+              <![CDATA[Outdoor Tables]]>
+            </line>
+            <line>
+              <![CDATA[Balcony Swings]]>
+            </line>
+            <line>
+              <![CDATA[Balcony Chairs]]>
+            </line>
+            <line>
+              <![CDATA[Ottomans]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subMenuTest -->
+        <test-method signature="studyChairsTest()[pri:13, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:03 IST" name="studyChairsTest" finished-at="2021-04-19T11:29:10 IST" duration-ms="6304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyChairsTest -->
+        <test-method signature="studyChairsDisplayTest()[pri:14, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:10 IST" name="studyChairsDisplayTest" finished-at="2021-04-19T11:29:11 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The price of the first three study chair]]>
+            </line>
+            <line>
+              <![CDATA[Dewey High Back Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.16999]]>
+            </line>
+            <line>
+              <![CDATA[Dorsey Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.4399]]>
+            </line>
+            <line>
+              <![CDATA[Hawley Study Chair:]]>
+            </line>
+            <line>
+              <![CDATA[Rs.6999]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- studyChairsDisplayTest -->
+        <test-method signature="screenShotTest2()[pri:15, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:11 IST" name="screenShotTest2" finished-at="2021-04-19T11:29:12 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotTest2 -->
+        <test-method signature="GiftCardButtonTest()[pri:16, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:12 IST" name="GiftCardButtonTest" finished-at="2021-04-19T11:29:28 IST" duration-ms="15989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCardButtonTest -->
+        <test-method signature="selectCardTest()[pri:17, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:28 IST" name="selectCardTest" finished-at="2021-04-19T11:29:28 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCardTest -->
+        <test-method signature="AmountTextBoxTest()[pri:18, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:28 IST" name="AmountTextBoxTest" finished-at="2021-04-19T11:29:28 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmountTextBoxTest -->
+        <test-method signature="RecipientNameTest()[pri:19, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:28 IST" name="RecipientNameTest" finished-at="2021-04-19T11:29:28 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecipientNameTest -->
+        <test-method signature="RecipientEmailTest()[pri:20, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:28 IST" name="RecipientEmailTest" finished-at="2021-04-19T11:29:28 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecipientEmailTest -->
+        <test-method signature="senderNameTest()[pri:21, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:28 IST" name="senderNameTest" finished-at="2021-04-19T11:29:29 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senderNameTest -->
+        <test-method signature="senderNoTest()[pri:22, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:29 IST" name="senderNoTest" finished-at="2021-04-19T11:29:29 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senderNoTest -->
+        <test-method signature="errorMessageTest()[pri:23, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:29 IST" name="errorMessageTest" finished-at="2021-04-19T11:29:29 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The error message appeared for invalid e-mail: Please include an '@' in the email address. 'Bhakti.com' is missing an '@'.
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- errorMessageTest -->
+        <test-method signature="screenShotTest()[pri:24, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:29 IST" name="screenShotTest" finished-at="2021-04-19T11:29:30 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ul.qa.testcases.ValidateBookDetails@4e3958e7]" started-at="2021-04-19T11:29:30 IST" name="tearDown" finished-at="2021-04-19T11:29:31 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ul.qa.testcases.ValidateBookDetails -->
+    </test> <!-- Test -->
+  </suite> <!-- DisplayBookShelves -->
+</testng-results>

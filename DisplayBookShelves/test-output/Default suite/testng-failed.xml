@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ul.qa.testcases.ValidateBookDetails">
+        <methods>
+          <include name="storageTypeTest"/>
+          <include name="searchBoxTest"/>
+          <include name="GiftCardButtonTest"/>
+          <include name="screenShotTest"/>
+          <include name="RecipientEmailTest"/>
+          <include name="screenShotTest2"/>
+          <include name="bookDetailsTest"/>
+          <include name="screenShotTest1"/>
+          <include name="tearDown"/>
+          <include name="subMenuTest"/>
+          <include name="searchButtonTest"/>
+          <include name="outOfStockTest"/>
+          <include name="selectCardTest"/>
+          <include name="amountTest"/>
+          <include name="categoryTest"/>
+          <include name="studyChairsTest"/>
+          <include name="CollectionButtonTest"/>
+          <include name="senderNameTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="initialiseSetUp"/>
+          <include name="AmountTextBoxTest"/>
+          <include name="studyChairsDisplayTest"/>
+          <include name="RecipientNameTest"/>
+          <include name="errorMessageTest"/>
+          <include name="senderNoTest"/>
+          <include name="closePopUpTest"/>
+        </methods>
+      </class> <!-- com.ul.qa.testcases.ValidateBookDetails -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

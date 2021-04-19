@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DisplayBookShelves" class="navigator-link">
+              <span class="suite-name border-passed">DisplayBookShelves</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DisplayBookShelves" class="navigator-link ">
+                    <span>C:\Users\hp\Desktop\Hackathon\DisplayBookShelves\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DisplayBookShelves" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DisplayBookShelves" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DisplayBookShelves" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DisplayBookShelves" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DisplayBookShelves" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DisplayBookShelves" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="hide-methods passed suite-DisplayBookShelves"> (hide)</a> <!-- hide-methods passed suite-DisplayBookShelves -->
+                      <a href="#" panel-name="suite-DisplayBookShelves" class="show-methods passed suite-DisplayBookShelves"> (show)</a> <!-- show-methods passed suite-DisplayBookShelves -->
+                    </span>
+                    <div class="method-list-content passed suite-DisplayBookShelves">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="AmountTextBoxTest">AmountTextBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="CollectionButtonTest">CollectionButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="GiftCardButtonTest">GiftCardButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="RecipientEmailTest">RecipientEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="RecipientNameTest">RecipientNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="amountTest">amountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="bookDetailsTest">bookDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="categoryTest">categoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="closePopUpTest">closePopUpTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="errorMessageTest">errorMessageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="outOfStockTest">outOfStockTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="screenShotTest">screenShotTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="screenShotTest1">screenShotTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="screenShotTest2">screenShotTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="searchBoxTest">searchBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="searchButtonTest">searchButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="selectCardTest">selectCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="senderNameTest">senderNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="senderNoTest">senderNoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="storageTypeTest">storageTypeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="studyChairsDisplayTest">studyChairsDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="studyChairsTest">studyChairsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DisplayBookShelves" title="com.ul.qa.testcases.ValidateBookDetails" class="method navigator-link" hash-for-method="subMenuTest">subMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DisplayBookShelves -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DisplayBookShelves" class="panel DisplayBookShelves">
+          <div class="suite-DisplayBookShelves-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ul.qa.testcases.ValidateBookDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AmountTextBoxTest">
+                  </a> <!-- AmountTextBoxTest -->
+                  <span class="method-name">AmountTextBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CollectionButtonTest">
+                  </a> <!-- CollectionButtonTest -->
+                  <span class="method-name">CollectionButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GiftCardButtonTest">
+                  </a> <!-- GiftCardButtonTest -->
+                  <span class="method-name">GiftCardButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecipientEmailTest">
+                  </a> <!-- RecipientEmailTest -->
+                  <span class="method-name">RecipientEmailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecipientNameTest">
+                  </a> <!-- RecipientNameTest -->
+                  <span class="method-name">RecipientNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="amountTest">
+                  </a> <!-- amountTest -->
+                  <span class="method-name">amountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookDetailsTest">
+                  </a> <!-- bookDetailsTest -->
+                  <span class="method-name">bookDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoryTest">
+                  </a> <!-- categoryTest -->
+                  <span class="method-name">categoryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closePopUpTest">
+                  </a> <!-- closePopUpTest -->
+                  <span class="method-name">closePopUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessageTest">
+                  </a> <!-- errorMessageTest -->
+                  <span class="method-name">errorMessageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="outOfStockTest">
+                  </a> <!-- outOfStockTest -->
+                  <span class="method-name">outOfStockTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenShotTest">
+                  </a> <!-- screenShotTest -->
+                  <span class="method-name">screenShotTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenShotTest1">
+                  </a> <!-- screenShotTest1 -->
+                  <span class="method-name">screenShotTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenShotTest2">
+                  </a> <!-- screenShotTest2 -->
+                  <span class="method-name">screenShotTest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchBoxTest">
+                  </a> <!-- searchBoxTest -->
+                  <span class="method-name">searchBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchButtonTest">
+                  </a> <!-- searchButtonTest -->
+                  <span class="method-name">searchButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCardTest">
+                  </a> <!-- selectCardTest -->
+                  <span class="method-name">selectCardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="senderNameTest">
+                  </a> <!-- senderNameTest -->
+                  <span class="method-name">senderNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="senderNoTest">
+                  </a> <!-- senderNoTest -->
+                  <span class="method-name">senderNoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storageTypeTest">
+                  </a> <!-- storageTypeTest -->
+                  <span class="method-name">storageTypeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studyChairsDisplayTest">
+                  </a> <!-- studyChairsDisplayTest -->
+                  <span class="method-name">studyChairsDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="studyChairsTest">
+                  </a> <!-- studyChairsTest -->
+                  <span class="method-name">studyChairsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subMenuTest">
+                  </a> <!-- subMenuTest -->
+                  <span class="method-name">subMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DisplayBookShelves-class-passed -->
+        </div> <!-- panel DisplayBookShelves -->
+        <div panel-name="test-xml-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hp\Desktop\Hackathon\DisplayBookShelves\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DisplayBookShelves&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Smoke Test&quot;/&gt;
+        &lt;include name=&quot;Regression Test&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ul.qa.testcases.ValidateBookDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- DisplayBookShelves --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageTitleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AmountTextBoxTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CollectionButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GiftCardButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RecipientEmailTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">RecipientNameTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">amountTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bookDetailsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">categoryTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">closePopUpTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">errorMessageTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">outOfStockTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">screenShotTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">screenShotTest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">screenShotTest2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchBoxTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCardTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">senderNameTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">senderNoTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">storageTypeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">studyChairsDisplayTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">studyChairsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">subMenuTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DisplayBookShelves');
+function tableData_DisplayBookShelves() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'GiftCardButtonTest')
+data.setCell(0, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(0, 3, 15989);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchButtonTest')
+data.setCell(1, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(1, 3, 14655);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'homePageTitleTest')
+data.setCell(2, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(2, 3, 8022);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'studyChairsTest')
+data.setCell(3, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(3, 3, 6304);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'subMenuTest')
+data.setCell(4, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(4, 3, 5241);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'storageTypeTest')
+data.setCell(5, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(5, 3, 4381);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'categoryTest')
+data.setCell(6, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(6, 3, 4262);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'closePopUpTest')
+data.setCell(7, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(7, 3, 4129);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'amountTest')
+data.setCell(8, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(8, 3, 2893);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchBoxTest')
+data.setCell(9, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(9, 3, 2172);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'outOfStockTest')
+data.setCell(10, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(10, 3, 2119);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'bookDetailsTest')
+data.setCell(11, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(11, 3, 1991);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'studyChairsDisplayTest')
+data.setCell(12, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(12, 3, 1309);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'screenShotTest1')
+data.setCell(13, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(13, 3, 1146);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'screenShotTest')
+data.setCell(14, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(14, 3, 769);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'screenShotTest2')
+data.setCell(15, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(15, 3, 710);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'errorMessageTest')
+data.setCell(16, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(16, 3, 590);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'AmountTextBoxTest')
+data.setCell(17, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(17, 3, 235);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'RecipientNameTest')
+data.setCell(18, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(18, 3, 224);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'senderNameTest')
+data.setCell(19, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(19, 3, 214);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'selectCardTest')
+data.setCell(20, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(20, 3, 201);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'RecipientEmailTest')
+data.setCell(21, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(21, 3, 199);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'senderNoTest')
+data.setCell(22, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(22, 3, 196);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'CollectionButtonTest')
+data.setCell(23, 2, 'com.ul.qa.testcases.ValidateBookDetails')
+data.setCell(23, 3, 143);
+window.suiteTableData['DisplayBookShelves']= { tableData: data, tableDiv: 'times-div-DisplayBookShelves'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-DisplayBookShelves">
+              </div> <!-- times-div-DisplayBookShelves -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DisplayBookShelves</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">subMenuTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+The submenu list from 'Being at home' column:</span>
+                <span class="reporter-method-output">Study Chairs</span>
+                <span class="reporter-method-output">Study Tables</span>
+                <span class="reporter-method-output">Study Lamps</span>
+                <span class="reporter-method-output">Study Sets</span>
+                <span class="reporter-method-output">Sofa Beds</span>
+                <span class="reporter-method-output">Accent Chairs</span>
+                <span class="reporter-method-output">Loveseats</span>
+                <span class="reporter-method-output">Floor Lamps</span>
+                <span class="reporter-method-output">Day Beds</span>
+                <span class="reporter-method-output">Outdoor Tables</span>
+                <span class="reporter-method-output">Balcony Swings</span>
+                <span class="reporter-method-output">Balcony Chairs</span>
+                <span class="reporter-method-output">Ottomans</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">errorMessageTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+The error message appeared for invalid e-mail: Please include an '@' in the email address. 'Bhakti.com' is missing an '@'.
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">studyChairsDisplayTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+The price of the first three study chair</span>
+                <span class="reporter-method-output">Dewey High Back Study Chair:</span>
+                <span class="reporter-method-output">Rs.16999</span>
+                <span class="reporter-method-output">Dorsey Study Chair:</span>
+                <span class="reporter-method-output">Rs.4399</span>
+                <span class="reporter-method-output">Hawley Study Chair:</span>
+                <span class="reporter-method-output">Rs.6999</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">bookDetailsTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+The price of the first three bookshelves below Rs.15000:</span>
+                <span class="reporter-method-output">Hayden Display Shelf:</span>
+                <span class="reporter-method-output">Rs.5999</span>
+                <span class="reporter-method-output">Austen Bookshelf/Display Unit:</span>
+                <span class="reporter-method-output">Rs.10399</span>
+                <span class="reporter-method-output">Tetris Side Bookshelf/Display Unit:</span>
+                <span class="reporter-method-output">Rs.6799</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DisplayBookShelves" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ul.qa.testcases.ValidateBookDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialiseSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">24268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closePopUpTest</span>
+                <span class="method-start">32296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchBoxTest</span>
+                <span class="method-start">36427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchButtonTest</span>
+                <span class="method-start">38600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">categoryTest</span>
+                <span class="method-start">53256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">amountTest</span>
+                <span class="method-start">57520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storageTypeTest</span>
+                <span class="method-start">60414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">outOfStockTest</span>
+                <span class="method-start">64796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenShotTest1</span>
+                <span class="method-start">66917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookDetailsTest</span>
+                <span class="method-start">68064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CollectionButtonTest</span>
+                <span class="method-start">70057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subMenuTest</span>
+                <span class="method-start">70201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studyChairsTest</span>
+                <span class="method-start">75443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">studyChairsDisplayTest</span>
+                <span class="method-start">81748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenShotTest2</span>
+                <span class="method-start">83058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GiftCardButtonTest</span>
+                <span class="method-start">83769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectCardTest</span>
+                <span class="method-start">99759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AmountTextBoxTest</span>
+                <span class="method-start">99961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RecipientNameTest</span>
+                <span class="method-start">100197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RecipientEmailTest</span>
+                <span class="method-start">100422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">senderNameTest</span>
+                <span class="method-start">100621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">senderNoTest</span>
+                <span class="method-start">100836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">errorMessageTest</span>
+                <span class="method-start">101034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenShotTest</span>
+                <span class="method-start">101625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102395 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

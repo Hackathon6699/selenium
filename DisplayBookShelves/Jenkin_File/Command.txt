@@ -1,0 +1,11 @@
+For java versions less than 8 =java -jar jenkins.war -httpsPort=8080
+Admin Password = *************
+For java versions 8+ = java -jar jenkins.war --enable-future-java --httpPort=8080
+
+Steps:
+Set jdk and maven path
+Install maven integration plugin
+Go to new item
+Select maven project
+Give pom file path
+Next build now

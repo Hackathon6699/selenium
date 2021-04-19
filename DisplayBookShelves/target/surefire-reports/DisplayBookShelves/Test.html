@@ -1,0 +1,257 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 19 11:27:48 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>103 seconds (103328 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Regression Test Smoke Test </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.AmountTextBoxTest()'><b>AmountTextBoxTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.CollectionButtonTest()'><b>CollectionButtonTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.GiftCardButtonTest()'><b>GiftCardButtonTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>15</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.RecipientEmailTest()'><b>RecipientEmailTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.RecipientNameTest()'><b>RecipientNameTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.amountTest()'><b>amountTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>2</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.bookDetailsTest()'><b>bookDetailsTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails<br/>
+<a href="#Output-1302141801" onClick='toggleBox("Output-1302141801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1302141801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1302141801">
+
+The price of the first three bookshelves below Rs.15000:<br/>
+Hayden Display Shelf:<br/>
+Rs.5999<br/>
+Austen Bookshelf/Display Unit:<br/>
+Rs.10399<br/>
+Tetris Side Bookshelf/Display Unit:<br/>
+Rs.6799<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.categoryTest()'><b>categoryTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>4</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.closePopUpTest()'><b>closePopUpTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>4</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.errorMessageTest()'><b>errorMessageTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails<br/>
+<a href="#Output-1223399478" onClick='toggleBox("Output-1223399478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1223399478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1223399478">
+
+The error message appeared for invalid e-mail: Please include an '@' in the email address. 'Bhakti.com' is missing an '@'.
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.homePageTitleTest()'><b>homePageTitleTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>8</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.outOfStockTest()'><b>outOfStockTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>2</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.screenShotTest()'><b>screenShotTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.screenShotTest1()'><b>screenShotTest1</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>1</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.screenShotTest2()'><b>screenShotTest2</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.searchBoxTest()'><b>searchBoxTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>2</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.searchButtonTest()'><b>searchButtonTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>14</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.selectCardTest()'><b>selectCardTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.senderNameTest()'><b>senderNameTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.senderNoTest()'><b>senderNoTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>0</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.storageTypeTest()'><b>storageTypeTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>4</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.studyChairsDisplayTest()'><b>studyChairsDisplayTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails<br/>
+<a href="#Output-737085888" onClick='toggleBox("Output-737085888", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-737085888" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-737085888">
+
+The price of the first three study chair<br/>
+Dewey High Back Study Chair:<br/>
+Rs.16999<br/>
+Dorsey Study Chair:<br/>
+Rs.4399<br/>
+Hawley Study Chair:<br/>
+Rs.6999<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.studyChairsTest()'><b>studyChairsTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails</td>
+<td></td>
+<td>6</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+<tr>
+<td title='com.ul.qa.testcases.ValidateBookDetails.subMenuTest()'><b>subMenuTest</b><br>Test class: com.ul.qa.testcases.ValidateBookDetails<br/>
+<a href="#Output-645015141" onClick='toggleBox("Output-645015141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-645015141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-645015141">
+
+The submenu list from 'Being at home' column:<br/>
+Study Chairs<br/>
+Study Tables<br/>
+Study Lamps<br/>
+Study Sets<br/>
+Sofa Beds<br/>
+Accent Chairs<br/>
+Loveseats<br/>
+Floor Lamps<br/>
+Day Beds<br/>
+Outdoor Tables<br/>
+Balcony Swings<br/>
+Balcony Chairs<br/>
+Ottomans<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.ul.qa.testcases.ValidateBookDetails@4e3958e7</td></tr>
+</table><p>
+</body>
+</html>
